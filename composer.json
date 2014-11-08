@@ -1,0 +1,19 @@
+{
+    "name": "symfocode/twig-i18n",
+    "description": "Twig internationalization tools",
+    "keywords": ["symfony", "twig", "i18n","l10n","internationalization","localization","locale"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yuriy Davletshin",
+            "email": "yuriy.davletshin@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "twig/twig": "~1.12"
+    },
+    "autoload": {
+        "psr-0": { "SymfoCode\\Twig\\I18n\\": "src/" }
+    }
+}
