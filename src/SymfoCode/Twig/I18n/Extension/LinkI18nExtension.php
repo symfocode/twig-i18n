@@ -1,9 +1,9 @@
 <?php
 
 /**
- * Part of the Twig-i18n package.
+ * Part of the symfocode/twig-i18n package.
  *
- * @package   Twig-i18n
+ * @package   symfocode/twig-i18n
  * @copyright 2014 Yuriy Davletshin
  * @license   http://opensource.org/licenses/mit-license/ The MIT License (MIT)
  */
