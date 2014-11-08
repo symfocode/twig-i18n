@@ -11,7 +11,8 @@
     ],
     "require": {
         "php": ">=5.3.3",
-        "twig/twig": "~1.12"
+        "twig/twig": "~1.12",
+        "symfony/http-foundation": "~2.5"
     },
     "autoload": {
         "psr-0": { "SymfoCode\\Twig\\I18n\\": "src/" }
