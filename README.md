@@ -57,10 +57,6 @@ parameters:
 twig:
     globals:
         system_locales: %site_system_locales%
-```
-
-services.yml
-```yml
 services:
     symfo_code.twig.link_i18n_extension:
         class: SymfoCode\Twig\I18n\Extension\LinkI18nExtension
