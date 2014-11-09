@@ -1,5 +1,8 @@
 Twig-i18n
 =========
+
+[![SensioLabsInsight](https://insight.sensiolabs.com/projects/a23033e7-9aa9-433e-8601-13511362fc8c/big.png)](https://insight.sensiolabs.com/projects/a23033e7-9aa9-433e-8601-13511362fc8c)
+
 Twig internationalization tools
 
 Twig-i18n works with PHP 5.3.3 or later.
@@ -58,7 +61,7 @@ twig:
     globals:
         system_locales: %site_system_locales%
 services:
-    symfo_code.twig.link_i18n_extension:
+    symfocode.twig.link_i18n_extension:
         class: SymfoCode\Twig\I18n\Extension\LinkI18nExtension
         arguments: ["@request_stack", "active"]
         tags:
