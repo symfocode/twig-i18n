@@ -1,7 +1,7 @@
 Twig-i18n
 =========
 
-[![SensioLabsInsight](https://insight.sensiolabs.com/projects/a23033e7-9aa9-433e-8601-13511362fc8c/big.png)](https://insight.sensiolabs.com/projects/a23033e7-9aa9-433e-8601-13511362fc8c)
+[![SensioLabsInsight](https://insight.sensiolabs.com/projects/a23033e7-9aa9-433e-8601-13511362fc8c/mini.png)](https://insight.sensiolabs.com/projects/a23033e7-9aa9-433e-8601-13511362fc8c)
 
 Twig internationalization tools
 
