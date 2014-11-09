@@ -1,9 +1,8 @@
 Twig-i18n
 =========
-
 [![SensioLabsInsight](https://insight.sensiolabs.com/projects/a23033e7-9aa9-433e-8601-13511362fc8c/mini.png)](https://insight.sensiolabs.com/projects/a23033e7-9aa9-433e-8601-13511362fc8c)
 
-Twig internationalization tools
+Twig internationalization tools based on [Symfony2][1] components and [Twig][2].
 
 Twig-i18n works with PHP 5.3.3 or later.
 
@@ -54,9 +53,9 @@ app/config/config.yml
 ```yml
 parameters:
     site_system_locales: 
-        en: { abbr: "En", name: "English", flag: gb-flag }
-        ru: { abbr: "Ру", name: "Русский", flag: ru-flag }
-        uk: { abbr: "Ук", name: "Українська", flag: uk-flag }
+        en: { abbr: "En", name: "English", flag: "gb-flag-icon" }
+        de: { abbr: "De", name: "Deutsch", flag: "de-flag-icon" }
+        fr: { abbr: "Fr", name: "Français", flag: "fr-flag-icon" }
 twig:
     globals:
         system_locales: %site_system_locales%
@@ -71,3 +70,6 @@ services:
 ## License
 
 Twig-i18n is licensed under the MIT license.
+
+[1]: http://symfony.com
+[2]: http://twig.sensiolabs.org
