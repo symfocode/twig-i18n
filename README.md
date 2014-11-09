@@ -1,6 +1,6 @@
 Twig-i18n
 =========
-[![SensioLabsInsight](https://insight.sensiolabs.com/projects/a23033e7-9aa9-433e-8601-13511362fc8c/mini.png)](https://insight.sensiolabs.com/projects/a23033e7-9aa9-433e-8601-13511362fc8c)
+[![SensioLabsInsight](https://insight.sensiolabs.com/projects/a23033e7-9aa9-433e-8601-13511362fc8c/mini.png)](https://insight.sensiolabs.com/projects/a23033e7-9aa9-433e-8601-13511362fc8c) [![Latest Stable Version](https://poser.pugx.org/symfocode/twig-i18n/v/stable.svg)](https://packagist.org/packages/symfocode/twig-i18n) [![Total Downloads](https://poser.pugx.org/symfocode/twig-i18n/downloads.svg)](https://packagist.org/packages/symfocode/twig-i18n) [![License](https://poser.pugx.org/symfocode/twig-i18n/license.svg)](https://packagist.org/packages/symfocode/twig-i18n)
 
 Twig internationalization tools based on [Symfony2][1] components and [Twig][2].
 
