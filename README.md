@@ -38,9 +38,9 @@ Twig-i18n works with PHP 5.3.3 or later.
 <div>{{ datetime|localedate('short_date') }}</div>
 <div>{{ datetime|localedate('medium_date') }}</div>
 
-<div>{{ datetime|locale-date('long_date') }}</div>
-<div>{{ datetime|locale-date('full_date') }}</div>
-<div>{{ datetime|locale-date('some_format') }}</div>
+<div>{{ datetime|locale_date('long_date') }}</div>
+<div>{{ datetime|locale_date('full_date') }}</div>
+<div>{{ datetime|locale_date('some_format') }}</div>
 ```
 
 ## Installation

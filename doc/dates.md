@@ -44,9 +44,9 @@ app/Resources/views/base.html.twig
 <div class="short-date">{{ datetime|localedate('short_date') }}</div>
 <div class="medium-date">{{ datetime|localedate('medium_date') }}</div>
 
-<div class="long-date">{{ datetime|locale-date('long_date') }}</div>
-<div class="full-date">{{ datetime|locale-date('full_date') }}</div>
-<div class="some-format">{{ datetime|locale-date('some_format') }}</div>
+<div class="long-date">{{ datetime|locale_date('long_date') }}</div>
+<div class="full-date">{{ datetime|locale_date('full_date') }}</div>
+<div class="some-format">{{ datetime|locale_date('some_format') }}</div>
 ```
 
 ## Result
