@@ -73,7 +73,7 @@ class DateI18nExtension extends \Twig_Extension
     }
 
     /**
-     * Returns a string with class attribute.
+     * Returns formatted and translated date.
      *
      * @param string $route   The route of the current link
      * @param string $classes Classes of the current element
@@ -93,8 +93,9 @@ class DateI18nExtension extends \Twig_Extension
                 $result = twig_date_format_filter($this->twig, $date, $format, $timezone);
             } else {
                 $pattern = '/[dDjlNSwzWFmMntLoYyaABgGhHisueIOPTZcrU]/';
+                $length = mb_strlen($format, 'UTF-8');
                 $result = '';
-                for ($i = 0; $i < mb_strlen($format, 'UTF-8'); $i++) {
+                for ($i = 0; $i < $length; $i++) {
                     $symbol = mb_substr($format, $i, 1, 'UTF-8');
                     if (preg_match($pattern, $symbol)) {
                         $value = twig_date_format_filter($this->twig, $date, $symbol, $timezone);
