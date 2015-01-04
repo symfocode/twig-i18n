@@ -19,20 +19,20 @@ use Symfony\Component\HttpFoundation\RequestStack;
 class LinkI18nExtension extends \Twig_Extension
 {
     /**
-     * @var RequestStack $requestStack Request stack
+     * @var \Symfony\Component\HttpFoundation\RequestStack $requestStack Request stack
      */
     protected $requestStack;
 
     /**
-     * @var string $activeCssClass CSS class of active elements
+     * @var string $activeCssClass The CSS class of active elements
      */
     protected $activeCssClass;
 
     /**
      * Constructor.
      *
-     * @param RequestStack $requestStack   Request stack
-     * @param string       $activeCssClass CSS class of active elements
+     * @param \Symfony\Component\HttpFoundation\RequestStack $requestStack   Request stack
+     * @param string                                         $activeCssClass The CSS class of active elements
      */
     public function __construct(RequestStack $requestStack, $activeCssClass = 'active')
     {
@@ -53,12 +53,12 @@ class LinkI18nExtension extends \Twig_Extension
     }
 
     /**
-     * Returns a string with class attribute.
+     * Returns a string with class attribute for active link.
      *
      * @param string $route   The route of the current link
-     * @param string $classes Classes of the current element
+     * @param string $classes The string of classes for the current HTML element
      *
-     * @return string The attribute of the element
+     * @return string The attribute of the HTML element
      */
     public function activeLink($route, $classes = '')
     {
@@ -75,12 +75,12 @@ class LinkI18nExtension extends \Twig_Extension
     }
 
     /**
-     * Returns a string with class attribute.
+     * Returns a string with class attribute for link with active locale.
      *
      * @param string $locale  The locale of the current link
-     * @param string $classes Classes of the current element
+     * @param string $classes The string of classes for the current HTML element
      *
-     * @return string The attribute of the element
+     * @return string The attribute of the HTML element
      */
     public function activeLocale($locale, $classes = '')
     {
