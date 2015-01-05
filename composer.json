@@ -1,7 +1,7 @@
 {
     "name": "symfocode/twig-i18n",
-    "description": "Twig internationalization tools",
-    "keywords": ["symfony", "twig", "i18n","l10n","internationalization","localization","locale"],
+    "description": "Twig internationalization tools for Symfony2",
+    "keywords": ["symfony","twig","i18n","l10n","internationalization","localization","locale"],
     "license": "MIT",
     "authors": [
         {

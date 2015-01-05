@@ -1,5 +1,5 @@
-Twig-i18n LinkI18nExtension
-===========================
+Symfocode/Twig-i18n LinkI18nExtension
+=====================================
 ## Use
 
 app/config/config.yml

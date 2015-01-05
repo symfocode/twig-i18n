@@ -1,5 +1,5 @@
-Twig-i18n DateI18nExtension
-===========================
+Symfocode/Twig-i18n DateI18nExtension
+=====================================
 ## Use
 
 app/config/config.yml
